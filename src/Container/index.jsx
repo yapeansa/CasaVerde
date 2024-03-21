@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import bg from "../assets/bg.svg";
+import bg from "/imagens/bg.svg";
 
 const Container = styled.main`
     max-width: 1920px;
