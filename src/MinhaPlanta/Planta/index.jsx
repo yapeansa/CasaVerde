@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
-import mouse from "../../assets/mouse.svg";
-import cart from "../../assets/cart.svg";
-import truck from "../../assets/truck.svg";
+import mouse from "/imagens/mouse.svg";
+import cart from "/imagens/cart.svg";
+import truck from "/imagens/truck.svg";
 
 const Planta = styled.div`
     max-width: 995px;

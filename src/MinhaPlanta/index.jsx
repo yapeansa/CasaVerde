@@ -1,5 +1,5 @@
 import Planta from "./Planta";
-import minhaPlanta from "../assets/minha_planta.png";
+import minhaPlanta from "/imagens/minha_planta.png";
 
 function MinhaPlanta() {
     return (

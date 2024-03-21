@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import seta from "../../assets/seta.svg";
+import seta from "/imagens/seta.svg";
 
 const SecaoOfertas = styled.div`
     padding: 45px 0 0;

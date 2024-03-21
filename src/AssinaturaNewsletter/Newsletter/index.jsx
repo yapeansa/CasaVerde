@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
-import planta from "../../assets/planta.svg";
-import mail from "../../assets/mail.svg";
+import planta from "/imagens/planta.svg";
+import mail from "/imagens/mail.svg";
 
 const Newsletter = styled.div`
     background: url(${planta}) 358px -60px no-repeat;
