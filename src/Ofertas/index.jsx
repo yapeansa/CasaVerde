@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ofertas from "./db.json";
 import { SecaoOfertas, ContainerOfertas } from "./OfertasEstilos";
 
 function Ofertas() {
