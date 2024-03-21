@@ -1,7 +1,17 @@
+import { useEffect, useState } from "react";
 import ofertas from "./db.json";
 import { SecaoOfertas, ContainerOfertas } from "./OfertasEstilos";
 
 function Ofertas() {
+
+    const [ofertas, setOfertas] = useState([]);
+
+    useEffect(() => {
+        fetch('https://raw.githubusercontent.com/yapeansa/CasaVerde/main/src/Ofertas/db.json')
+            .then(dados => dados.json())
+            .then(resposta => setOfertas(resposta));
+    }, []);
+
     return (
         <SecaoOfertas>
             <h3 className="titulo-secao">Conheça nossas</h3>
