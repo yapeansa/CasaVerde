@@ -18,7 +18,7 @@ function Ofertas() {
             <ContainerOfertas>
                 {ofertas.map(planta =>
                     <div key={planta.id} className="card-planta">
-                        <div clasName="imagem-planta">
+                        <div className="imagem-planta">
                             <img src={planta.imagem} alt={planta.nome} />
                         </div>
                         <div className="info-planta">

@@ -1,13 +1,9 @@
-import { useState } from "react";
 import Newsletter from "./Newsletter";
 
-function AssinaturaNewsletter() {
-
-    const [email, setEmail] = useState('');
-
+function AssinaturaNewsletter({ setEmail, setDialogo }) {
     function mensagem(e) {
         e.preventDefault();
-        alert(`Obrigado pela sua assinatura. Você receberá nossas novidades no e-mail ${email}.`);
+        setDialogo(true);
     }
 
     function tratamento(e) {

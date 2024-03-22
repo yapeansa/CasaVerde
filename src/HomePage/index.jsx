@@ -5,16 +5,23 @@ import EstilosGlobais from "../EstilosGlobais";
 import MinhaPlanta from "../MinhaPlanta";
 import Ofertas from "../Ofertas";
 import Rodape from "../Rodape";
+import Alerta from "../Alerta";
+import { useState } from "react";
 
 function HomePage() {
+
+    const [dialogo, setDialogo] = useState(false);
+    const [email, setEmail] = useState('');
+
     return (
         <Container>
             <EstilosGlobais />
             <Menu />
-            <AssinaturaNewsletter />
+            <AssinaturaNewsletter setEmail={setEmail} setDialogo={setDialogo} />
             <MinhaPlanta />
             <Ofertas />
             <Rodape />
+            <Alerta acoesDialogo={{ dialogo, setDialogo, email }} />
         </Container>
     );
 }
