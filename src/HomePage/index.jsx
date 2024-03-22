@@ -4,6 +4,7 @@ import Container from "../Container";
 import EstilosGlobais from "../EstilosGlobais";
 import MinhaPlanta from "../MinhaPlanta";
 import Ofertas from "../Ofertas";
+import Rodape from "../Rodape";
 
 function HomePage() {
     return (
@@ -13,6 +14,7 @@ function HomePage() {
             <AssinaturaNewsletter />
             <MinhaPlanta />
             <Ofertas />
+            <Rodape />
         </Container>
     );
 }

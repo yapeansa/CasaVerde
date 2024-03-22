@@ -50,6 +50,10 @@ const Newsletter = styled.div`
             cursor: pointer;
         }
     }
+
+    @media screen and (max-width: 1700px) {
+        background-position: 85% -60px;
+    }
 `;
 
 export default Newsletter;

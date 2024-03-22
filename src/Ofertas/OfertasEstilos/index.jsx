@@ -24,8 +24,8 @@ const ContainerOfertas = styled.div`
     gap: 22px;
     flex-wrap: wrap;
     .card-planta {
-        flex: 0 1 auto;
-        max-width: 379px;
+        flex: 1 1 28%;
+        //max-width: 379px;
         background: var(--branco);
         box-shadow: 0 3px 18px #ddd;
         display: flex;
@@ -52,7 +52,7 @@ const ContainerOfertas = styled.div`
                 display: block;
                 max-width: 110px;
                 position: relative;
-                padding: .3rem 0;
+                padding: .4rem 0;
                 &::before {
                     content: '';
                     position: absolute;
@@ -60,7 +60,7 @@ const ContainerOfertas = styled.div`
                     bottom: 0;
                     width: 0;
                     height: 2px;
-                    background: var(--segunda-cor);
+                    background: var(--primeira-cor);
                     transition: all .3s ease-in-out;
                 }
                 &:hover {

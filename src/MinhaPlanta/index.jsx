@@ -4,7 +4,9 @@ import minhaPlanta from "/imagens/minha_planta.png";
 function MinhaPlanta() {
     return (
         <Planta>
-            <img src={minhaPlanta} alt="Minha planta" />
+            <div className="minha-planta">
+                <img src={minhaPlanta} alt="Minha planta" />
+            </div>
             <div className="acoes-planta">
                 <h3>Como conseguir</h3>
                 <h2>minha planta</h2>

@@ -8,9 +8,14 @@ const Planta = styled.div`
     margin: 0 auto;
     display: flex;
     box-shadow: 0 3px 18px 0px #ddd;
-    img { max-width: 100%; }
+    height: 435px;
+    .minha-planta {
+        flex: 1 1 58%;
+        img { width: 100%; }
+    }
     .acoes-planta {
         padding: 0 0 0 30px;
+        flex: 1 1 42%;
         display: flex;
         flex-direction: column;
         justify-content: center;
