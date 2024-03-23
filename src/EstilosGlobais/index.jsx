@@ -16,11 +16,18 @@ const EstilosGlobais = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
     body {
         font-family: var(--fonte-principal), sans-serif;
         font-weight: 400;
     }
+
     a { text-decoration: none; }
+
+    @keyframes opacite {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
 `;
 
 export default EstilosGlobais;

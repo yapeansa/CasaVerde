@@ -10,14 +10,17 @@ const EmailEnviado = styled.div`
     display: ${props => props.$dialogo ? 'flex' : 'none'};
     justify-content: center;
     align-items: center;
+    animation-name: opacite;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
     .box-alert {
         background: var(--branco);
-        padding: 3rem 5rem 2rem;
+        padding: 3rem 2rem 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        border-radius: 16px;
+        border: 2px solid var(--primeira-cor);
         button {
             padding: 1rem 3rem;
             background: var(--quarta-cor);
