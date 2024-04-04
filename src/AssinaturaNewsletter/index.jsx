@@ -1,14 +1,13 @@
 import Newsletter from "./Newsletter";
 
-function AssinaturaNewsletter({ setEmail, setDialogo }) {
-    function mensagem(e) {
+const AssinaturaNewsletter = ({ setEmail, setDialogo }) => {
+
+    const mensagem = (e) => {
         e.preventDefault();
         setDialogo(true);
-    }
+    };
 
-    function tratamento(e) {
-        setEmail(e.target.value);
-    }
+    const tratamento = (e) => { setEmail(e.target.value); };
 
     return (
         <Newsletter>
@@ -17,12 +16,12 @@ function AssinaturaNewsletter({ setEmail, setDialogo }) {
             <p>Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.</p>
             <div>
                 <form className="n-form" onSubmit={(e) => mensagem(e)}>
-                    <input type="email" placeholder="Insira seu e-mail" onChange={(e) => tratamento(e)} required />
+                    <input type="email" placeholder="Insira seu e-mail" minLength={10} onChange={(e) => tratamento(e)} required />
                     <input type="submit" value="Assinar newsletter" />
                 </form>
             </div>
         </Newsletter>
     );
-}
+};
 
 export default AssinaturaNewsletter;
