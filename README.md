@@ -14,7 +14,7 @@ Uma descrição do projeto Casa Verde...
 
 ## IMAGEM DO PROJETO
 
-![Casa Verde](/cover.png)
+![Casa Verde](/public/cover.png)
 
 ## COMO ACESSAR O PROJETO
 
