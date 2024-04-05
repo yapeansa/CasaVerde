@@ -1,6 +1,6 @@
 # PROJETO CASA VERDE
 
-Uma descrição do projeto Casa Verde...
+Casa verde é um projeto de desenvolvimento de interface de usuário em `React`. Conceitos importantes como gerenciamento de estados e consumo de API são aplicados.
 
 ## TECNOLOGIAS UTILIZADAS
 
@@ -18,4 +18,4 @@ Uma descrição do projeto Casa Verde...
 
 ## COMO ACESSAR O PROJETO
 
-Você pode acessar o projeto através do link []().
+Você pode acessar o projeto através do link [https://casaverdeplantas.vercel.app/](https://casaverdeplantas.vercel.app/).
